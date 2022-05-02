@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFirstSuite">
+    <test thread-count="4" name="Test">
+        <classes>
+            <class name="liveproject.verifytitle"/>
+            <class name="liveproject.verifywebsiteheading"/>
+            <class name="liveproject.printimgurl"/>
+            <class name="liveproject.verifywebsitesecondheading"/>
+            <class name="liveproject.navigatetoanotherpage"/>
+            <class name="liveproject.applytojob"/>
+            <class name="liveproject.createnewjoblisting"/>
+            <class name="liveproject.loginbackendwebsite"/>
+            <class name="liveproject.backendjoblisting"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
